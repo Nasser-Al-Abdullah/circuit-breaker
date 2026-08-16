@@ -142,6 +142,10 @@ npm install
 Run the simulation:
 
 ```bash
+npm start
+```
+
+```bash
 npx tsx src/index.ts
 ```
 
