@@ -336,14 +336,12 @@ Tests cover behaviors such as:
 - `CLOSED → OPEN`
 - Requests rejected while `OPEN`
 - Preventing the underlying service from being called while `OPEN`
-- `OPEN → HALF_OPEN`
-- Successful recovery
-- Failed recovery
-- `HALF_OPEN → CLOSED`
-- `HALF_OPEN → OPEN`
-- Single recovery probe behavior
 
 Run the test suite:
+
+```bash
+npm test
+```
 
 ```bash
 npx vitest
